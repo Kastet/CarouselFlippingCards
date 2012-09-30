@@ -1,0 +1,8 @@
+.DS_Store
+*.xcuserstate
+*.xcbkptlist
+*.xcuserdatad
+.svn
+xcuserdata
+
+*.xcworkspacedata
