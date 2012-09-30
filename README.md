@@ -4,7 +4,7 @@ CarouselFlippingCards
 
 iOS demo project for displaying carousel with reusable and flipping cells
 
-Based on [an example](https://github.com/sgabello/UIView-FlipTransition "UIView-FlipTransition").
+Based on [UIView-FlipTransition](https://github.com/sgabello/UIView-FlipTransition "UIView-FlipTransition").
 
 
 
