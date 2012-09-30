@@ -4,5 +4,6 @@
 *.xcuserdatad
 .svn
 xcuserdata
+.xcuserdata
 
 *.xcworkspacedata
