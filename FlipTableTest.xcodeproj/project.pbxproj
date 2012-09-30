@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD522B7015C2C387009C56E5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD522B6F15C2C387009C56E5 /* UIKit.framework */; };
+		AD522B7215C2C387009C56E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD522B7115C2C387009C56E5 /* Foundation.framework */; };
+		AD522B7415C2C387009C56E5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD522B7315C2C387009C56E5 /* CoreGraphics.framework */; };
+		AD522B7A15C2C387009C56E5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AD522B7815C2C387009C56E5 /* InfoPlist.strings */; };
+		AD522B7C15C2C387009C56E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD522B7B15C2C387009C56E5 /* main.m */; };
+		AD522B8015C2C387009C56E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD522B7F15C2C387009C56E5 /* AppDelegate.m */; };
+		AD522B8315C2C387009C56E5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD522B8215C2C387009C56E5 /* ViewController.m */; };
+		AD522B8615C2C387009C56E5 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD522B8415C2C387009C56E5 /* ViewController_iPhone.xib */; };
+		AD522B8915C2C387009C56E5 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD522B8715C2C387009C56E5 /* ViewController_iPad.xib */; };
+		AD522B9115C2D025009C56E5 /* UIHorizontalTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD522B9015C2D025009C56E5 /* UIHorizontalTableView.m */; };
+		AD522B9915C2E026009C56E5 /* UIView+FlipTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = AD522B9815C2E025009C56E5 /* UIView+FlipTransition.m */; };
+		AD522B9B15C2E0E4009C56E5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD522B9A15C2E0E4009C56E5 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AD522B6B15C2C387009C56E5 /* FlipTableTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlipTableTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD522B6F15C2C387009C56E5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AD522B7115C2C387009C56E5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AD522B7315C2C387009C56E5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AD522B7715C2C387009C56E5 /* FlipTableTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlipTableTest-Info.plist"; sourceTree = "<group>"; };
+		AD522B7915C2C387009C56E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AD522B7B15C2C387009C56E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AD522B7D15C2C387009C56E5 /* FlipTableTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlipTableTest-Prefix.pch"; sourceTree = "<group>"; };
+		AD522B7E15C2C387009C56E5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AD522B7F15C2C387009C56E5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AD522B8115C2C387009C56E5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AD522B8215C2C387009C56E5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AD522B8515C2C387009C56E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		AD522B8815C2C387009C56E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		AD522B8F15C2D025009C56E5 /* UIHorizontalTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIHorizontalTableView.h; sourceTree = "<group>"; };
+		AD522B9015C2D025009C56E5 /* UIHorizontalTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIHorizontalTableView.m; sourceTree = "<group>"; };
+		AD522B9715C2E025009C56E5 /* UIView+FlipTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FlipTransition.h"; sourceTree = "<group>"; };
+		AD522B9815C2E025009C56E5 /* UIView+FlipTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FlipTransition.m"; sourceTree = "<group>"; };
+		AD522B9A15C2E0E4009C56E5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD522B6815C2C387009C56E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD522B9B15C2E0E4009C56E5 /* QuartzCore.framework in Frameworks */,
+				AD522B7015C2C387009C56E5 /* UIKit.framework in Frameworks */,
+				AD522B7215C2C387009C56E5 /* Foundation.framework in Frameworks */,
+				AD522B7415C2C387009C56E5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD522B6015C2C387009C56E5 = {
+			isa = PBXGroup;
+			children = (
+				AD522B9A15C2E0E4009C56E5 /* QuartzCore.framework */,
+				AD522B7515C2C387009C56E5 /* FlipTableTest */,
+				AD522B6E15C2C387009C56E5 /* Frameworks */,
+				AD522B6C15C2C387009C56E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD522B6C15C2C387009C56E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD522B6B15C2C387009C56E5 /* FlipTableTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD522B6E15C2C387009C56E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD522B6F15C2C387009C56E5 /* UIKit.framework */,
+				AD522B7115C2C387009C56E5 /* Foundation.framework */,
+				AD522B7315C2C387009C56E5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD522B7515C2C387009C56E5 /* FlipTableTest */ = {
+			isa = PBXGroup;
+			children = (
+				AD522B9715C2E025009C56E5 /* UIView+FlipTransition.h */,
+				AD522B9815C2E025009C56E5 /* UIView+FlipTransition.m */,
+				AD522B8F15C2D025009C56E5 /* UIHorizontalTableView.h */,
+				AD522B9015C2D025009C56E5 /* UIHorizontalTableView.m */,
+				AD522B7E15C2C387009C56E5 /* AppDelegate.h */,
+				AD522B7F15C2C387009C56E5 /* AppDelegate.m */,
+				AD522B8115C2C387009C56E5 /* ViewController.h */,
+				AD522B8215C2C387009C56E5 /* ViewController.m */,
+				AD522B8415C2C387009C56E5 /* ViewController_iPhone.xib */,
+				AD522B8715C2C387009C56E5 /* ViewController_iPad.xib */,
+				AD522B7615C2C387009C56E5 /* Supporting Files */,
+			);
+			path = FlipTableTest;
+			sourceTree = "<group>";
+		};
+		AD522B7615C2C387009C56E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD522B7715C2C387009C56E5 /* FlipTableTest-Info.plist */,
+				AD522B7815C2C387009C56E5 /* InfoPlist.strings */,
+				AD522B7B15C2C387009C56E5 /* main.m */,
+				AD522B7D15C2C387009C56E5 /* FlipTableTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD522B6A15C2C387009C56E5 /* FlipTableTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD522B8C15C2C387009C56E5 /* Build configuration list for PBXNativeTarget "FlipTableTest" */;
+			buildPhases = (
+				AD522B6715C2C387009C56E5 /* Sources */,
+				AD522B6815C2C387009C56E5 /* Frameworks */,
+				AD522B6915C2C387009C56E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlipTableTest;
+			productName = FlipTableTest;
+			productReference = AD522B6B15C2C387009C56E5 /* FlipTableTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD522B6215C2C387009C56E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = BigTinCan;
+			};
+			buildConfigurationList = AD522B6515C2C387009C56E5 /* Build configuration list for PBXProject "FlipTableTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AD522B6015C2C387009C56E5;
+			productRefGroup = AD522B6C15C2C387009C56E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD522B6A15C2C387009C56E5 /* FlipTableTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD522B6915C2C387009C56E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD522B7A15C2C387009C56E5 /* InfoPlist.strings in Resources */,
+				AD522B8615C2C387009C56E5 /* ViewController_iPhone.xib in Resources */,
+				AD522B8915C2C387009C56E5 /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD522B6715C2C387009C56E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD522B7C15C2C387009C56E5 /* main.m in Sources */,
+				AD522B8015C2C387009C56E5 /* AppDelegate.m in Sources */,
+				AD522B8315C2C387009C56E5 /* ViewController.m in Sources */,
+				AD522B9115C2D025009C56E5 /* UIHorizontalTableView.m in Sources */,
+				AD522B9915C2E026009C56E5 /* UIView+FlipTransition.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AD522B7815C2C387009C56E5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD522B7915C2C387009C56E5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AD522B8415C2C387009C56E5 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD522B8515C2C387009C56E5 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		AD522B8715C2C387009C56E5 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD522B8815C2C387009C56E5 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD522B8A15C2C387009C56E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD522B8B15C2C387009C56E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD522B8D15C2C387009C56E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlipTableTest/FlipTableTest-Prefix.pch";
+				INFOPLIST_FILE = "FlipTableTest/FlipTableTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AD522B8E15C2C387009C56E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlipTableTest/FlipTableTest-Prefix.pch";
+				INFOPLIST_FILE = "FlipTableTest/FlipTableTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD522B6515C2C387009C56E5 /* Build configuration list for PBXProject "FlipTableTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD522B8A15C2C387009C56E5 /* Debug */,
+				AD522B8B15C2C387009C56E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD522B8C15C2C387009C56E5 /* Build configuration list for PBXNativeTarget "FlipTableTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD522B8D15C2C387009C56E5 /* Debug */,
+				AD522B8E15C2C387009C56E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD522B6215C2C387009C56E5 /* Project object */;
+}
